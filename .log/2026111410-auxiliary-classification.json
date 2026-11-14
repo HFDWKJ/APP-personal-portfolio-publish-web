@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "recorded_at": "2026-11-14T10:51:36.139185+00:00",
+  "purpose": "Classify repository material and adopt needed three-letter auxiliary directories",
+  "repository": "HFDWKJ/APP-personal-portfolio-publish-web",
+  "source_commit": "8f0e8716ee47e05794694651beff41c8ab34c653",
+  "policy": "https://github.com/HFDWKJ/MyProtocol/blob/8722d0d2279337d2e414bac90bf00663afc3d7d0/System-Conventions/Repository-Auxiliary-Directories.md",
+  "moves": [],
+  "root_classification": [
+    {
+      "path": ".log/",
+      "role": ".log",
+      "reason": "Dated execution evidence; existing receipt bodies are preserved."
+    },
+    {
+      "path": "_astro/",
+      "role": "runtime-resource-interface",
+      "reason": "Existing browser, package or published-site resource paths retained; no deployment layout change."
+    },
+    {
+      "path": "en/",
+      "role": "runtime-resource-interface",
+      "reason": "Existing browser, package or published-site resource paths retained; no deployment layout change."
+    },
+    {
+      "path": "fonts/",
+      "role": "runtime-resource-interface",
+      "reason": "Existing browser, package or published-site resource paths retained; no deployment layout change."
+    },
+    {
+      "path": "zh/",
+      "role": "runtime-resource-interface",
+      "reason": "Existing browser, package or published-site resource paths retained; no deployment layout change."
+    }
+  ],
+  "preserved_frozen_and_log_count": 0,
+  "preservation_method": "Existing protected paths are excluded from mutations; changed-path audit and baseline Git blobs verify preservation.",
+  "root_entry_files": "README/AGENTS, license, version authority, package/configuration and launch interfaces retained; support versioning prose moved to .doc when present.",
+  "readme_language": "New/maintained root README prose is EN-US; original history and unchanged learning/source bodies retain their original language.",
+  "validation": {
+    "local_link_targets_checked": 0,
+    "new_broken_links": [],
+    "inherited_unresolved_links": [],
+    "status": "passed",
+    "scope": "Changed documentation links, source path consumer where affected, staged Git blobs and preserved tracked content",
+    "public_runtime_artifacts_byte_identical": true,
+    "staged_mapped_files_verified": 0,
+    "protected_git_blobs_verified": 0
+  },
+  "limits": [
+    "No deployment, hosted-site publication workflow execution, service/database/native data writes or installed-device acceptance.",
+    "Existing consumer-bound source, resource and primary data paths are documented exceptions; raw/private runtime bodies were not scanned or uploaded.",
+    "Historical .log bodies are preserved; this is not a replay of completed log normalization."
+  ],
+  "compatibility": "Historical Git commits retain original paths; maintained in-repository readers point to canonical destinations. Root manifests/entrypoints and actual package/runtime interfaces are preserved.",
+  "other_changed_files": [
+    "AGENTS.md"
+  ],
+  "root_file_classification": [
+    {
+      "path": ".nojekyll",
+      "role": "package-tool-or-release-interface"
+    },
+    {
+      "path": "AGENTS.md",
+      "role": "root-documentation-interface"
+    },
+    {
+      "path": "README.md",
+      "role": "root-documentation-interface"
+    },
+    {
+      "path": "favicon.svg",
+      "role": "package-tool-or-release-interface"
+    },
+    {
+      "path": "index.html",
+      "role": "primary-source-or-runtime-entry"
+    },
+    {
+      "path": "robots.txt",
+      "role": "package-tool-or-release-interface"
+    },
+    {
+      "path": "version.json",
+      "role": "package-tool-or-release-interface"
+    }
+  ],
+  "classification_coverage": "Every tracked root file and top-level directory classified; internal source/subject package structure retained under its declared parent role.",
+  "root_readme_source": {
+    "path": "README.md",
+    "commit": "8f0e8716ee47e05794694651beff41c8ab34c653",
+    "note": "Original pre-edit prose remains recoverable at this Git commit; translations and current layout prose do not rewrite prior history."
+  }
+}
